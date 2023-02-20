@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('MVN Build') {
              steps{
-                 echo "Building Jar File..............."
+                 echo "Building Jar File............."
                  sh "mvn clean install"
             }
             post {
